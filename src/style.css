@@ -1,5 +1,14 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
+.diamonds{
+    color: red
+}
+.hearts{
+    color: red
+}
+.spades{
+    color: black
+}
+.clubs{
+    color: black
 }
