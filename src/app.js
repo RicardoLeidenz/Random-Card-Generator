@@ -4,6 +4,7 @@ import "./style.css";
 const cards = ["A","2","3","4","5","6","7","8","9","10","J","Q","K"];
 const suits = ["diamonds","hearts","spades","clubs"];
 const symbols = {diamonds:"♦",hearts:"♥",spades:"♠",clubs:"♣"};
+let timerOn = false;
 
 window.newCard = function newCard(){
   const card = document.getElementById("card");
@@ -16,4 +17,16 @@ window.newCard = function newCard(){
                     </div>`;
 }
 
+window.startTimer = function startTimer(timerIsOn){
+  if(timerIsOn){
+    timerOn = true;
+    setTimeout(() => {
+        newCard();
+        startTimer(timerOn);
+      }, 10000);
+  }
+}
+window.stopTimer = function stopTimer(){
+  timerOn = false;
+}
 newCard();
