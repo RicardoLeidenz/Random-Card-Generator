@@ -10,8 +10,8 @@ A simple web-based project that generates a random playing card on each page ref
     Every time the page is refreshed, a new random card is displayed.
   ### 🂡 Standard Deck Cards:
     Cards include:
-      Suits: Hearts ♥, Spades ♠, Clubs ♣, Diamonds ♦
-      Values: 2 through 10, Jack, Queen, King, and Ace
+      - Suits: Hearts ♥, Spades ♠, Clubs ♣, Diamonds ♦
+      - Values: 2 through 10, Jack, Queen, King, and Ace
   ### 🔁 Generate Card Button:
     Click the "New Card" button to instantly generate a new random card.
   ### ⏱ Automatic Update Every 10 Seconds:
