@@ -13,7 +13,7 @@ window.newCard = function newCard(){
   card.innerHTML = `<div class="col-1 bg-white mx-2 rounded ${suit}">
                       <h1 class="row float-start mb-5">${symbols[suit]}</h1>
                       <h1 class="row justify-content-center mt-5">${face}</h1>
-                      <h1 class="row mt-4 float-end">${symbols[suit]}</h1>
+                      <h1 class="row mt-4 float-end bottom">${symbols[suit]}</h1>
                     </div>`;
 }
 

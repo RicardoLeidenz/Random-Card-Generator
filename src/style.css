@@ -12,3 +12,6 @@
 .clubs{
     color: black
 }
+.bottom{
+    transform:rotate(180deg);
+}
